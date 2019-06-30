@@ -9,8 +9,7 @@ LABEL Component="httpd" \
       Release="1"
       
 # Labels consumed by OpenShift
-LABEL io.k8s.description="A basic Apache HTTP Server image with ONBUILD
-      instructions" \
+LABEL io.k8s.description="A basic Apache HTTP Server image with ONBUILD instructions" \
       io.k8s.display-name="Apache HTTP Server parent image" \
       io.openshift.expose-services="80:http" \
       io.openshift.tags="apache, httpd"
